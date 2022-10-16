@@ -11,7 +11,7 @@ Projeto construído no Evento Mapa Dev Week do DeveemDobro.
 /)
 
 ## Objetivos 
-  Desenvolver um card como algumas informções.
+  Desenvolver um card como algumas informações.
 
 ## 📚 Tecnologias 
 - HTML;
