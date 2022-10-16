@@ -1,15 +1,19 @@
 * {
-  font-family: 'VT323', monospace;
+  font-family: 'Inconsolata', monospace;
   color: #f3f3f3;
   font-size: 1.125rem;
 }
 
 body {
+  background-image: url(https://thumbs.gfycat.com/LiquidAnimatedBuckeyebutterfly-size_restricted.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   background-color: white;
 
 }
@@ -24,7 +28,7 @@ body {
 }
 
 .myInformation {
-  padding-top: 1.25rem;
+  padding: 1.25rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,8 +82,6 @@ body {
 }
 
 
-
-
 .tabInformation .information {
     min-height: 16.25rem;
     padding: 0.9375rem;
@@ -102,8 +104,9 @@ body {
     max-height: 11.25rem;
     overflow-y: auto;
     padding-right: 0.9375rem;
+    
     }
-/* colocar destaque no texto aqui */
+
 
 .socialMidias {
   display: flex;
@@ -121,6 +124,7 @@ body {
   text-align: center;
   padding: 0.625rem;
   font-size: 1.25rem;
+  
   background-color: #02d08f;
   transition: opacity 0.3s ease-in-out;
 }
@@ -129,9 +133,11 @@ body {
 
 }
 
-
-
-
+p{
+  text-indent: 1.5rem;
+  text-align: justify;
+ margin: 0.625rem;
+}
 
 
 

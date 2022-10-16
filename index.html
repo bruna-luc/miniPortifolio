@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
-      rel="stylesheet">
+      rel="stylesheet"> -->
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+
+
 
     <link rel="stylesheet" href="./rsc/css/style.css">
     <link rel="stylesheet" href="./rsc/css/reset.css">
@@ -18,11 +28,12 @@
   </head>
   <body>
     <main class="card">
+
       <header class="myInformation">
         <img src="https://avatars.githubusercontent.com/u/79415713?v=4"
           alt="Profile">
         <h1>Bruna Oliveira</h1>
-        <h2>Font-End Jr</h2>
+        <h2>Front-End Jr</h2>
       </header>
 
       <div class="content">
@@ -30,12 +41,12 @@
         <div class="tabs">
 
           <ul>
-            <li class="tab selection">
+            <li class="tab selection" id="About">
               <img src="./rsc/imgs/sobre.gif" alt="About">
             </li>
 
-            <li class="tab">
-              <img src="./rsc/imgs/coracao.gif" alt="Social midia">
+            <li class="tab" id="SocialMidia">
+              <img src="./rsc/imgs/coracao.gif" alt="Social Midia">
             </li>
           </ul>
         </div>
@@ -46,27 +57,25 @@
 
         <div class="tabInformation">
 
-          <div class="information selection ">
+          <div class="information selection "  id="infAbout">
             <h3>Sobre</h3>
             <div class="description">
-              <!-- FALTA COLOCAR O TEXT FINAL -->
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-                cum
-                debitis consequuntur aperiam cumque, eligendi et dolores
-                consectetur saepe voluptate corporis, unde dolorum molestias
-                labore ullam tenetur officia, earum possimus?</p>
+             
+              <p>Oi! meu nome é Bruna Oliveira, seja bem-vindo(a)!</p>
 
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
-                facere deserunt commodi ut distinctio molestias recusandae
-                voluptates vitae tempore, qui minus autem eligendi nesciunt quam
-                ducimus exercitationem nobis iusto dignissimos?
+              <p>
+                Sou uma pessoal antes de tudo curiosa apaixonada por se desafiar e descobrir novas formas de ir mais longe. 
+              </p>
+              <p>
+                Graduada em engenharia elétrica inicio minha nova jornada na aréa desenvolvimento Web.
               </p>
             </div>
           </div>
 
 
-          <div class="information">
-            <h3>Social midia</h3>
+          <div class="information" id="infSocialMidia">
+            <h3>Vamos trocar uma ideia</h3>
+
             <ul class="socialMidias">
               <li><a href="" target="_blank">Curriculo</a> </li>
               <li>
@@ -92,6 +101,6 @@
 
 
 
-    <script src="./rsc/JavaScript/index.js"></script>
+    <script src="./rsc/js/index.js"></script>
   </body>
 </html>
